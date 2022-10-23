@@ -1,5 +1,5 @@
 # IP Header의 필드 값의 의미
-![packet.PNG](./packet.PNG)
+![packet.PNG](./img/packet.PNG)
 - 45 00 = Version4의 값
 - 00 34 = total length
 - 4c 9f = identification
