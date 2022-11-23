@@ -52,3 +52,7 @@
 ## 기타
 
 - READ 함수에 인자가 3개 있는 경우 => READ(배열이름, 시작, 끝(길이)) 로 이해하면 됨.
+
+## HTTP HEADER 정리 해논 사이트
+
+- https://velog.io/@jkijki12/HTTP-Header-%EC%A0%95%EB%A6%AC
