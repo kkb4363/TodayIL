@@ -14,7 +14,19 @@ Digit.sort();
 => 그러므로 숫자를 정렬하려면 아래처럼 해야함.
 Digit.sort(a,b) => a-b; // 오름차순
 Digit.sort(a,b) => b-a; // 내림차순
+
+=> 문자열을 정렬하는 경우
+const str = ['a','b','c'];
+str.sort();
+=> [a,b,c]
+
+str.sort((a,b)=>a-b? 1: -1) //오름차순
+=> [a,b,c]
+str.sort((a,b)=>a-b? -1 : 1) //내림차순
+=> [c,b,a]
 ```
+
+
 
 - 이해가 안된다면 아래 블로그 참조
 - https://velog.io/@mystyle730/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98-Sort%ED%95%A8%EC%88%98-%EC%9D%B4%ED%95%B4
